@@ -1,0 +1,219 @@
+body {
+    background-color: #fff;
+    color: #777;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: 85px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #444;
+}
+a:hover {
+    color: #6471b1;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 13px;
+    color: #777;
+    font-style: italic;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+header {
+    height: 120px;
+    background-color: #e4ecf7;
+}
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+header h1 .color {
+    color: #6471b1;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    float: left;
+    display: inline-block;
+    margin-top: 50px;
+}
+header nav ul li a {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+
+#aiphosgalaxy-image {
+    width: 200;
+    height: 580px;
+    padding-top: 1px;
+    background: #080328 url('../images/aiphosgalaxy.jpg') center;
+    background-size: cover;
+}
+#aiphosgalaxy-image h2 {
+    margin: 180px 0 40px 0;
+}
+.button-1 {
+    display: block;
+    text-align: center;
+    background: rgb(81, 77, 90);
+    border-radius: 3px;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.button-1:hover {
+    background-color: #6471b1;
+    color: #fff;
+}
+#primary-content {
+    background-color: #f8fafa;
+    padding: 60px 0;
+    text-align: center;
+}
+#primary-content h3 {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    border-bottom: 1px solid #6471b1;
+    padding: 0 0 20px 0;
+}
+#secondary-content {
+    padding: 60px 0;
+    text-align: center;
+}
+#secondary-content article {
+    width: 460px;
+    height: 270px;
+    float: left;
+    background-color: #f5f5f5;
+}
+#secondary-content article:first-child {
+    margin-right: 20px;
+    background-size: cover;
+}
+#secondary-content article .overlay {
+    background: rgba(255, 255, 255, .95);
+    height: 230px;
+    width: 190px;
+    padding: 20px;
+    background-size: cover;
+}
+article h4 {
+    border-bottom: 1px solid #6471b1;
+    padding-bottom: 20px;
+}
+.more-link {
+    border: 1px solid #6471b1;
+    color: #6471b1;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.more-link:hover {
+    background-color: #6471b1;
+    color: #fff;
+}
+footer {
+    padding: 60px 0;
+    background-color: #f8fafa;
+}
+#footer-info {
+    width: 380px;
+    float: left;
+    margin-top: 10px;
+}
+#footer-links {
+    width: 520px;
+    float: right;
+}
+#footer-links ul {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+}
+#footer-links ul li {
+    margin: 10px 0;
+}
+
+#features ul {
+    margin: 80px 0;
+}
+#features ul li {
+    width: 200px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+#features ul li.feature-1 {
+    background: url('../images/instagram.png') no-repeat top center;
+    background-size: 100px;
+}
+#features ul li.feature-2 {
+    background: url('../images/heart.png') no-repeat top center;
+    background-size: 100px;
+}
+#features ul li.feature-3 {
+    background: url('../images/twitter.png') no-repeat top center;
+    background-size: 100px;
+}
+#features ul li.feature-4 {
+    background: url('../images/envelope.png') no-repeat top center;
+    background-size: 100px;
+}
+.column {
+    float: left;
+}
